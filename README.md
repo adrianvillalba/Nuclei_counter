@@ -15,8 +15,10 @@ Note: You can download for free the last version imageJ at the official reposito
 
 ## **3. Results.**
 After loading a single-channel 8-bit image with the acquired data for DAPI or HOECHS stains, the image will be duplicated and processed to avoid modifications in the original data. Once the macro performed all the operations you will obtains all the nuclei ROIs (Regions of Interest) loaded in the ROI manager and the resulting ones counted, measured and stored in the display of imageJ. 
+
+
 <p align="center">
   <img src=https://github.com/adrianvillalba/Nuclei_counter/blob/master/Captura.PNG width="350"/>
 </p>
 
-
+This is the expected output with all the information you may get after Nuclei_Counter processing.
