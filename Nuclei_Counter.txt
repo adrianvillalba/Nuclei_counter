@@ -1,0 +1,14 @@
+run("Duplicate...", " ");
+
+// To do surround the nuclei in a binary mask //
+setAutoThreshold("Moments");
+//run("Threshold...");
+//setThreshold(0, 36);
+setOption("BlackBackground", false);
+run("Convert to Mask");
+run("Invert");
+run("Erode");
+run("Watershed");
+
+// To count every particle
+run("Analyze Particles...", "  show=[Bare Outlines] display exclude add");
